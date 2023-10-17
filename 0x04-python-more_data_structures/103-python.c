@@ -1,15 +1,14 @@
-#include <stdio.h>
 #include <Python.h>
+#include <stdio.h>
 
 /**
- * print_python_bytes - Prints bytes information
- *
- * @p: Python Object
- * Return: no return
+ * print_python_bytes - Prints bytes info
+ * @p: Python obj
+ * Return: return 0
  */
 void print_python_bytes(PyObject *p)
 {
-	char *string;
+	char *str;
 	long int size, i, limit;
 
 	printf("[.] bytes object info\n");
@@ -20,10 +19,10 @@ void print_python_bytes(PyObject *p)
 	}
 
 	size = ((PyVarObject *)(p))->ob_size;
-	string = ((PyBytesObject *)p)->ob_sval;
+	str = ((PyBytesObject *)p)->ob_sval;
 
 	printf("  size: %ld\n", size);
-	printf("  trying string: %s\n", string);
+	printf("  trying string: %s\n", str);
 
 	if (size >= 10)
 		limit = 10;
@@ -33,19 +32,17 @@ void print_python_bytes(PyObject *p)
 	printf("  first %ld bytes:", limit);
 
 	for (i = 0; i < limit; i++)
-		if (string[i] >= 0)
-			printf(" %02x", string[i]);
+		if (str[i] >= 0)
+			printf(" %02x", str[i]);
 		else
-			printf(" %02x", 256 + string[i]);
-
+			printf(" %02x", 256 + str[i]);
 	printf("\n");
 }
 
 /**
  * print_python_list - Prints list information
- *
- * @p: Python Object
- * Return: no return
+ * @p: Python object
+ * Return: always return 0
  */
 void print_python_list(PyObject *p)
 {
@@ -67,3 +64,4 @@ void print_python_list(PyObject *p)
 		if (PyBytes_Check(obj))
 			print_python_bytes(obj);
 	}
+}
