@@ -7,12 +7,12 @@ As usual, make sure you type (never copy and paste), test, understand all exampl
 
 Read or watch the below resources in the order presented.</p>
 <h4>Resources</h4>
-<https://intranet.alxswe.com/rltoken/i49z6HxrBGRNnixo7ZWbEQ>
-<https://intranet.alxswe.com/rltoken/qz3KSn154ia4H2DPaabOzg>
-<https://intranet.alxswe.com/rltoken/Wy2djWXK5b4rnnYlAq_wlA>
-<https://intranet.alxswe.com/rltoken/MxIOanLf5vG5QeCWek2nqQ>
-<https://intranet.alxswe.com/rltoken/AoLH4xp5StrQST-Cu0Fg8w>
-<https://intranet.alxswe.com/rltoken/-vVnWzwR3a3X0H8Oia78Ug>
+[resources](https://intranet.alxswe.com/rltoken/i49z6HxrBGRNnixo7ZWbEQ)
+[resources](https://intranet.alxswe.com/rltoken/qz3KSn154ia4H2DPaabOzg)
+[resources](https://intranet.alxswe.com/rltoken/Wy2djWXK5b4rnnYlAq_wlA)
+[resources](https://intranet.alxswe.com/rltoken/MxIOanLf5vG5QeCWek2nqQ)
+[resources](https://intranet.alxswe.com/rltoken/AoLH4xp5StrQST-Cu0Fg8w)
+[resources](https://intranet.alxswe.com/rltoken/-vVnWzwR3a3X0H8Oia78Ug)
 <h5>Learning Objectives</h5>
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
